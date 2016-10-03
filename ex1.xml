@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GradeBook>
+    <markLanguages>
+        <student>
+            <firstName> Ernesto </firstName>
+            <lastName> Fatuarte </lastName>
+            <adress> Ronda de Triana </adress>
+            <email> ernesto.fatuarte@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Inma </firstName>
+            <lastName> Morilla </lastName>
+            <adress> Utrera </adress>
+            <email> inma.morilla@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Isaac </firstName>
+            <lastName> Cano </lastName>
+            <adress> Utrera </adress>
+            <email> isaac.cano@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Tamara </firstName>
+            <lastName> Royán </lastName>
+            <adress> Los Barrios </adress>
+            <email> tamara.royan@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Antonio </firstName>
+            <lastName> Llopis </lastName>
+            <adress> Ronda de Triana </adress>
+            <email> antonio.llopis@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Paula </firstName>
+            <lastName> Panadero </lastName>
+            <adress> San Vicente de Paul </adress>
+            <email> paula.panadero@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Pablo </firstName>
+            <lastName> Moreno </lastName>
+            <adress> Montequinto </adress>
+            <email> pablo.moreno@gmail.com </email>
+        </student>
+        <student>
+            <firstName> María José </firstName>
+            <lastName> Rodríguez </lastName>
+            <adress> Écija </adress>
+            <email> mj.rodriguez@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Antonio </firstName>
+            <lastName> González </lastName>
+            <adress> Ronda de Triana </adress>
+            <email> antonio.gonzalez@gmail.com </email>
+        </student>
+        <student>
+            <firstName> Irene </firstName>
+            <lastName> Deduy </lastName>
+            <adress> Chiclana </adress>
+            <email> irene.deduy@gmail.com </email>
+        </student>
+    </markLanguages>
+    <dataBaseSystemManagement>
+      <student>
+          <firstName> Inés </firstName>
+          <lastName> Velázquez </lastName>
+          <adress> San Pablo </adress>
+          <email> ines.velazquez@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Ricardo </firstName>
+          <lastName> Gomez </lastName>
+          <adress> Los Bermejales </adress>
+          <email> ricardo.gomez@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Mari Carmen </firstName>
+          <lastName> Montañés </lastName>
+          <adress> Alcalá </adress>
+          <email> mc.montanes@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Alejandro </firstName>
+          <lastName> García </lastName>
+          <adress> San Vicente de Paul </adress>
+          <email> ale.garcia@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Jasone </firstName>
+          <lastName> Ramírez </lastName>
+          <adress> Sevilla Este </adress>
+          <email> jas.ramirez@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Guillermo </firstName>
+          <lastName> Sánchez </lastName>
+          <adress> La Macarena </adress>
+          <email> guille.sanchez@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Estíbaliz </firstName>
+          <lastName> Pérez </lastName>
+          <adress> Jerez </adress>
+          <email> esti.perez@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Manuel </firstName>
+          <lastName> Delgado </lastName>
+          <adress> Ronda de Triana </adress>
+          <email> manu.delgado@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Marina </firstName>
+          <lastName>  Fonteseca </lastName>
+          <adress> Los Bermejales </adress>
+          <email> marina.fonteseca@gmail.com </email>
+      </student>
+      <student>
+          <firstName> Joaquín </firstName>
+          <lastName>  Conde </lastName>
+          <adress> Sevilla Este </adress>
+          <email> joaquin.conde@gmail.com </email>
+      </student>
+      </dataBaseSystemManagement>
+</class>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CookBook>
+<recipe> Tortilla de Patatas
+        <ingredients>
+            <name> Patatas </name>
+            <name> Huevos </name>
+            <name> Queso </name>
+            <name> Aceite de Oliva </name>
+            <name> Jamón de York </name>
+        </ingredients>
+        <elaboration>
+            <step> Pelar las patatas </step>
+            <step> Cortar las patatas en dados </step>
+            <step> Cascar los huevos en un recipiente </step>
+            <step> Batir los huevos </step>
+            <step> Echar las patatas, el Queso y el Jamón de York en el mismo recipiente que el huevo batido </step>
+            <step> Hervir el aceite en una sartén </step>
+            <step> Verter el contenido del recipiente en la sartén </step>
+            <step> Dejarlo unos 15 minutos hasta que esté en su punto </step>
+            <step> Darle la vuelta y volver a esperar hasta que esté hecha la tortilla </step>
+        </elaboration>
+</recipe>
+<recipe>
+        <ingredients>
+            <name> Tortita </name>
+            <name> Tomate frito </name>
+            <name> Queso en lonchas </name>
+            <name> Jamón de York </name>
+        </ingredients>
+        <elaboration>
+            <step> Untar la tortita con el tomate </step>
+            <step> Trocear tanto el queso como el jamón <step>
+            <step> Colocar estos trozos en una de las mitades de la tortita </step>
+            <step> Meter 1 min. en el microondas </step>
+        </elaboration>
+</recipe>
