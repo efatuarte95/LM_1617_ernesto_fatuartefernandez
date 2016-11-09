@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE cateneMontuose SYSTEM "ex23.dtd">
+<cateneMontuose>
+  <catenaMontuosa>
+    <monte>
+      <nome>	Mulhacén	</nome>
+      <regione>	Andalucía	</regione>
+    </monte>
+  </catenaMontuosa>
+  <catenaMontuosa>
+    <monte>
+      <nome> Teide </nome>
+      <altezza unitaMisura="metros"> 3718 </altezza>
+    </monte>
+  </catenaMontuosa>
+</cateneMontuose>

@@ -1,0 +1,12 @@
+<!ELEMENT	match (game)*>
+<!ELEMENT	game (home-team, away-team, scores, yellows, reds)>
+<!ELEMENT	home-team	(#PCDATA)>
+<!ELEMENT	away-team (#PCDATA)>
+<!ELEMENT	scores (score)*>
+<!ELEMENT	yellows (player)*>
+<!ELEMENT	reds (player)*>
+<!ELEMENT	score (player)*>
+<!ELEMENT	player (#PCDATA)>
+<!ATTLIST	game score CDATA #REQUIRED>
+<!ATTLIST	score time CDATA #REQUIRED>
+<!ATTLIST	score	type (normal|corner|foul|penalty) #IMPLIED>

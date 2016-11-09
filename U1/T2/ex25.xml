@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE match SYSTEM "ex25.dtd">
+<match>
+  <game	score="4-1">
+    <home-team> Sevilla </home-team>
+    <away-team> Betis </away-team>
+    <scores>
+      <score time= "15" type="foul">
+        <player> Reyes </player>
+      </score>
+      <score time= "20" type="normal">
+        <player> Fazio </player>
+      </score>
+      <score time= "37" type="corner">
+        <player> Fazio </player>
+      </score>
+      <score time= "72" type="penalty">
+        <player> R.Castro </player>
+      </score>
+      <score time= "85" type="normal">
+        <player> Rakitic </player>
+      </score>
+    </scores>
+    <yellows>
+      <player> Pareja </player>
+      <player> Mbia </player>
+      <player> R.Castro </player>
+      <player> Nono </player>
+    </yellows>
+    <reds>
+      <player> Pareja </player>
+    </reds>
+  </game>
+</match>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE stock SYSTEM "ex24.dtd">
+<stock>
+  <new-car>
+    <model> Volkswagen PassatCC </model>
+    <price> 38580 </price>
+  </new-car>
+  <used-car>
+    <model> Ford Fiesta 1.5 </model>
+    <price> 8500 </price>
+    <mileage> 30000 </mileage>
+    <condition> Good </condition>
+  </used-car>
+  <new-car>
+    <model> Ferrari GTC4Lusso T </model>
+    <price> 93000 </price>
+  </new-car>
+</stock>
