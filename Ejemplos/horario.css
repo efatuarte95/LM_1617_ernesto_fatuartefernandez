@@ -1,0 +1,14 @@
+thead > tr {
+  background-color: #BDBDBD;
+  color: #B40431;
+  font-size: 1.2em;
+}
+td:first-child {
+  color: #FF0000;
+  font-size: 2em;
+}
+#recreo {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  font-size: 1.5em;
+}
