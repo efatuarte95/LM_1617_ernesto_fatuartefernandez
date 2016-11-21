@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href=" ">
+  </head>
+  <body>
+      <form>
+          <table cellspacing="15">
+              <tr bgcolor="blue">
+                  <td><big><b>Event Planner</b></big>
+                  </td>
+                  <td colspan="3">
+                      <select name=options>
+                          <option>More Options</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Event Name</b></td>
+                  <td>
+                      <input type="text" size=38>
+                  </td>
+                  <td rowspan="2"><b>Requirements</b></td>
+                  <td rowspan="2">
+                      <input type="checkbox" name="staffing">Staffing
+                      <br><input type="checkbox" name="catering">Catering
+                      <br><input type="checkbox" name="security">Security
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Event Coordinator</b></td>
+                  <td>
+                      <input type="text" size=38>
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Email</b></td>
+                  <td>
+                      <input type="text" size=38>
+                  </td>
+                  <td valign="top">
+                      <b>Event Start Date</b>
+                  </td>
+                  <td>
+                      <input type="datetime"><img src="calendario.jpg" width="20">[dd-MM-yyyy
+                      <br>HH:mm:ss]
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Event Type</b></td>
+                  <td>
+                      <select name=Concert>
+                          <option>Concert</option>
+                          <option>.....................................................................</option>
+                      </select>
+                  </td>
+                  <td valign="top">
+                      <b>Event End Date</b>
+                  </td>
+                  <td>
+                      <input type="datetime"><img src="calendario.jpg" width="20">[dd-MM-yyyy
+                      <br>HH:mm:ss]
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Total Members</b></td>
+                  <td>
+                      <select name=select>
+                          <option>-Select-</option>
+                          <option>.....................................................................</option>
+                      </select>
+                  </td>
+                  <td valign="top"><b>Location</b></td>
+                  <td>
+                      <textarea name="eltexto" rows="5" cols="30"></textarea>
+                  </td>
+              </tr>
+              <tr>
+                  <td rowspan="2"><b>Event Description</b></td>
+                  <td rowspan="2">
+                      <textarea name="eltexto" rows="5" cols="30"></textarea>
+                  </td>
+                  <td><b>City</b>
+                  </td>
+                  <td>
+                      <input type="text" size=38>
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>State</b></td>
+                  <td>
+                      <select name=state>
+                          <option>-Select-</option>
+                          <option>.....................................................................</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Does yout program<br>involve any type of<br>outside activity?</b></td>
+                  <td>
+                      <input type="radio" name="yes">Yes
+                      <br><input type="radio" name="no">No
+                  </td>
+                  <td>
+                      <b>Country</b>
+                  </td>
+                  <td>
+                      <br><select name=country>
+                          <option>-Select-</option>
+                      <option>.....................................................................</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td><b>Cost Per Person</b></td>
+                  <td>
+                        <input type="text">USD
+                  </td>
+                  <td>
+                      <b>ATTACH<br>DETAILED<br>ITINERARY</b>
+                  </td>
+                  <td>
+                      <input type="file" name="itinerary">
+                  </td>
+                <tr>
+                    <td colspan="4" align="center" width="100" height="100">
+                        <input style=background-color:blue type="submit" value="Submit" class="btn btn-default btn-lg">
+                        <input style=background-color:blue type="reset" value="Reset" >
+                    </td>
+              </tr>
+          </table>
+      </form>
+    </body>

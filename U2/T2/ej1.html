@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej1</title>
+    <link rel="stylesheet" type="text/css" href=" ">
+  </head>
+  <body>
+      <form>
+        <table>
+            <tr>
+                <td><b>Title*</b><br><input type="text" required="required" size="40" value="Astronomy for Poets"></td>
+                <td><b>Short Title*<br></b><input type="text" required="required" size="20" value="Astr. for Poets"></td>
+                <td><b>Subj.:</b><br><sub>BLST</sub></td>
+                <td><b>Num.:</b><br><input type="text" size="2" value="10"></td>
+                <td><b>Section:</b><br><input type="text" size="2" value="01"></td>
+                <td><b>Year</b><br><sub>0910</sub></td>
+            </tr>
+        </table>
+        <table border="1" cellspacing=0>
+            <tr>
+                <td>
+                    <input type="checkbox" name="enrollement">
+                </td>
+                <td>Enrollment<br>limit</td>
+                <td><b>Num.:</b><br><input type="text" size="2"></td>
+                <td><b>Rationale:</b><br><input type="text" size="45"></td>
+                <td rowspan="4" valign="top">
+                    <b>Class<br>Meeting/Week:</b>
+                    <br><input type="number" value="1" min="1" max="9">
+                    <br><b>Class Hour/Week</b>
+                    <br><input type="number" value="0" min="0" max="9">
+                    <br><b>Semester(s) Offered:</b>
+                    <br><select name="Semester">
+                    <option value="">None</option>
+                    <option value="1">First</option>
+                    <option value="2">Second</option>
+                    </select>
+                    <br><input type="checkbox" name="semester" checked>Incl. semester in<br>prereqs.
+                    <br><input type="checkbox" name="offered">Offered only once
+                    <br><input type="checkbox" name="printede">Incl. in printed<br>catalog
+                </td>
+                <td rowspan="4" valign="top">
+                    <b>Keywords:</b>
+                    <br><input type="checkbox" name="science">Science for non-majors
+                    <br><input type="checkbox" name="fine">Fine arts for non-majors
+                    <br><input type="checkbox" name="lab">Lab science course
+                    <br><input type="checkbox" name="artistic">Artistic practice
+                    <br><input type="checkbox" name="language">Foreign language/culture<br>taught English
+                    <br><input type="checkbox" name="community">Community based learning
+                    <br><input type="checkbox" name="attentive">Writting attentive
+                    <br><input type="checkbox" name="intensivee">Writing intensive
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="consent">
+                </td>
+                <td colspan="2">Consent<br>required</td>
+                <td><b>Rationale:</b><br><input type="text" size="45"></td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <input type="checkbox" name="leve">
+                </td>
+                <td valign="top">Limit class<br>level</td>
+                <td valign="top"><b>Code:</b><br><input type="text" size="2"></td>
+                <td><b>Rationale:</b>
+                    <br><input type="text" size="45">
+                    <br><b>How to handle over-enrollment:</b>
+                    <br><input type="text" size="45">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <input type="checkbox" name="Prerequisite">
+                </td>
+                <td colspan="2" valign="top">Prerequisite</td>
+                <td><b>Rationale</b>:
+                    <br><input type="text" size="45">
+                    <br><b>Required Prereqs. (major,course):</b>
+                    <br><input type="text" size="45">
+                    <br><b>Recomended Prereqs.:</b>
+                    <br><input type="text" size="45">
+                </td>
+        </table>
+        <table>
+            <tr>
+                <td><b>Approvals:</b>
+                <br><input type="checkbox" name="CEP"> CEP
+                <br><input type="checkbox" name="CEP"> Committee of six
+                <br><input type="checkbox" name="CEP"> Faculty
+                </td>
+                <td><b>Date:</b>
+                <br><img src="cruz.jpg" width="16">
+                    <input type="text">
+                <br><img src="cruz.jpg" width="16">
+                    <input type="text">
+                <br><img src="cruz.jpg" width="16">
+                    <input type="text">
+                </td>
+                <td><b>Comment</b>
+                 <br><img src="cruz.jpg" width="16">
+                    <input type="text" size="45">
+                <br><img src="cruz.jpg" width="16">
+                    <input type="text" size="45">
+                <br><img src="cruz.jpg" width="16">
+                    <input type="text" size="45">
+                </td>
+           </tr>
+        </table>
+    </form>
+  </body>
+</html>
