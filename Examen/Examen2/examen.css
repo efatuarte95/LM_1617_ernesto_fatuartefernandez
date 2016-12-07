@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+#contenedor {
+  margin: 0px auto;
+  width: 800px;
+  overflow-y: auto;
+}
+#izquierda {
+  height: 440px;
+  width: 150px;
+  float:left;
+}
+#imagen1 {
+  height: 100px;
+  width: 70px;
+  margin: 20px auto;
+}
+.li {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  list-style: square;
+}
+#derecha {
+  height: 440px;
+  width: 600px;
+  float: right;
+  position: relative;
+}
+#imagen2 {
+  height: 300px;
+  width: 400px;
+  margin: 30px auto;
+}
+div + span {
+  position: absolute;
+}
+#texto {
+  height: 150px;
+  font-size: 10px;
+}
+#texto1 {
+  margin-left: 5px;
+  margin-top: 10px;
+  height: 130px;
+  width: 180px;
+  float: left;
+}
+#texto2 {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 130px;
+  width: 180px;
+  float: left;
+  position: relative;
+}
+#texto3 {
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 130px;
+  width: 180px;
+  float: right;
+}
+#pie {
+  clear: both;
+  height: 50px;
+  background-color: grey;
+  text-align: center;
+  font-size: 10px;
+}
