@@ -14,13 +14,14 @@
 #imagen1 {
   height: 100px;
   width: 70px;
-  margin: 20px auto;
+  margin-left: 30px;
+  margin-top: 20px
 }
-.li {
+#izquierda .li{
   text-decoration: underline;
-  display: inline-block;
+  display: inline;
   font-size: 15px;
-  list-style: square;
+  list-style: none;
 }
 #derecha {
   height: 440px;
@@ -32,6 +33,7 @@
   height: 300px;
   width: 400px;
   margin: 30px auto;
+  margin-left: 50px;
 }
 div + span {
   position: absolute;

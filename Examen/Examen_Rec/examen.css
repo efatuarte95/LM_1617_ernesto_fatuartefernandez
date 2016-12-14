@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+#contenedor {
+  width: 800px;
+  margin: 70px auto;
+  border: 4px solid black;
+  overflow-y: auto;
+}
+
+#derecha {
+  width: 25%;
+  float: right;
+}
+#derecha img {
+  width: 50%;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#texto {
+  margin-left: 5px;
+}
+
+#texto p {
+  width: 40%;
+  float: left;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+#izquierda {
+  width: 75%;
+  float: right;
+}
+
+#izquierda h1 {
+  width: 65%;
+  margin: 30px auto;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#imagenes {
+  width: 65%;
+  margin: 20px auto;
+}
+
+#imagenes img {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin: 10px 5px;
+}
