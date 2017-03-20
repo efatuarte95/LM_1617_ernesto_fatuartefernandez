@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Exam Digital Frame</title>
+	<!-- Loading jQUery Script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+
+	<div id="main">
+		<h1>Digital Frame</h1>
+		<div id="images">
+			<img src="./img/html_logo.png" />
+			<img src="./img/bootstrap-logo.jpg" />
+			<img src="./img/js.png" />
+			<img src="./img/jQurery.gif" />
+		</div>
+		<div id="frame">
+			<div id="picture">
+				<img src="./img/html_logo.png" />
+			</div>
+			<div id="zoom">
+				<img src="./img/zoom-in.png" />
+				<img src="./img/zoom-out.png" />
+			</div>
+			<div id="colors">
+				<div id="negro"></div>
+				<div id="rojo"></div>
+				<div id="azul"></div>
+				<div id="amarillo"></div>
+				<div id="verde"></div>
+				<div id="rosa"></div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+	  $(function() {
+
+			$("#images img").click(function(event){
+
+				$("#picture img").attr("src", $(this).attr("src"));
+
+			});
+
+
+			$("#colors div").click(function(event){
+
+				var color = $(this).css("background-color")
+
+				$("#picture").css("border-color", color);
+				$("#picture img").css("border-color", color);
+
+			});
+
+
+	  });
+	</script>
+
+</body>
+</html>

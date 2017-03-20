@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+thead > tr {
+  background-color: red;
+  color: white;
+}

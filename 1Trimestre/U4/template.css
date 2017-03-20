@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#ejemplo {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  border: 5px solid black;
+}
+
+.test {
+  background-color: green;
+}
